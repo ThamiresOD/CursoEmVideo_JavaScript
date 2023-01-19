@@ -79,6 +79,15 @@ O JavaScript é responsável pela interatividade dos elementos na página.
 
 ### Aula 3 - Dando os primeiros passos
 
-- 
+### Livros:
+
+- JavaScript - O guia definitivo
+- JavaScript - Guia do programador
+
+### Ferramentas:
+
+- Google Chrome - Navegador
+- Visual Studio Code - Editor de texto
+- Node.js - Engine V8 JS
 
 ### Aula 4 - Criando o seu primeiro script
