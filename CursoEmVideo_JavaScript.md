@@ -4,11 +4,11 @@ Resumo
 
 ## Módulo A: Conhecendo o JavaScript
 
-### Aula 1 - O que o JavaScript é capaz de fazer?
+### Aula 01 - O que o JavaScript é capaz de fazer?
 
 O JavaScript é responsável pela interatividade dos elementos na página.
 
-### Aula 2 - Como chegamos até aqui?
+### Aula 02 - Como chegamos até aqui?
 
 ### Evolução do JavaScript:
 
@@ -77,7 +77,7 @@ O JavaScript é responsável pela interatividade dos elementos na página.
     - melon.js
     - CraftyJs
 
-### Aula 3 - Dando os primeiros passos
+### Aula 03 - Dando os primeiros passos
 
 ### Livros:
 
@@ -90,4 +90,66 @@ O JavaScript é responsável pela interatividade dos elementos na página.
 - Visual Studio Code - Editor de texto
 - Node.js - Engine V8 JS
 
-### Aula 4 - Criando o seu primeiro script
+### Aula 04 - Criando o seu primeiro script
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula04</title>
+    <style>
+        body {
+            background-color: #242424;
+            color: antiquewhite;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>This is a paragraph</p>
+    <script>
+        window.alert('My first message!')
+        window.confirm('Did you like JavaScript?')
+        window.prompt("What's your name?")
+    </script>
+</body>
+</html>
+```
+
+## Módulo B: Variáveis e tipos primitivos
+
+### Aula05 - Variáveis e Tipos Primitivos
+
+- Number
+    - Infinity
+    - NaN
+- String
+- Boolen
+    
+    
+- Null
+- Undefined
+- object
+    - Array
+- function
+    
+    
+
+- typeof
+    
+    Comando para descobrir o tipo de uma variável ou valor.
+    
+
+### Aula06 - Tratamento de dados
+
+### Aula07 - Operadores 1/2
+
+### Aula08 - Operadores 2/2
