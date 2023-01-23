@@ -150,6 +150,45 @@ O JavaScript é responsável pela interatividade dos elementos na página.
 
 ### Aula06 - Tratamento de dados
 
+### Concatenação:
+
+```jsx
+<script>
+        let name = window.prompt("What's your name?")
+        window.alert('Hello, ' + name)
+</script>
+```
+
+### Operação:
+
+```jsx
+<script>
+        let n1 = Number.parseFloat(window.prompt("Insert a number: "))
+        let n2 = Number.parseInt(window.prompt("Insert other number: "))
+        let n3 = Number(window.prompt("Insert other number: "))
+        let s = n1 + n2 + n3
+        window.alert('The add is: ' + s)
+</script>
+```
+
+### Template String:
+
+- Exemplos:
+    - toUpperCase()
+    - toLowerCase()
+    - toFixed(2)
+    - replace(’ . ’, ‘ , ’)
+    - toLocaleString(’pt-BR’, {style: ‘currency’, currency: ‘BRL’})
+
+```html
+<script>
+        let nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá ${nome}, seu nome tem ${nome.length} letras. <br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}
+        <br> e em minúsculas é ${nome.toLowerCase()}`)
+</script>
+```
+
 ### Aula07 - Operadores 1/2
 
 ### Aula08 - Operadores 2/2

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula06</title>
+    <style>
+        body {
+            background-color: #242424;
+            color: antiquewhite;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>This is a paragraph</p>
+    <script>
+        let n1 = Number.parseFloat(window.prompt("Insert a number: "))
+        let n2 = Number.parseInt(window.prompt("Insert other number: "))
+        let n3 = Number(window.prompt("Insert other number: ")) // Ele identifica o tipo
+        let s = n1 + n2 + n3
+        window.alert(`A soma entre ${n1}, ${n2} e ${n3} é: ${s}`)
+    </script>
+</body>
+</html>
