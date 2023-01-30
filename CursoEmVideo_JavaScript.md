@@ -191,4 +191,23 @@ O JavaScript é responsável pela interatividade dos elementos na página.
 
 ### Aula07 - Operadores 1/2
 
+- Aritméticos
+    - +
+    - -
+    - *
+    - /
+    - % → Resto da divisão inteira
+    - ** → Potência (5**2 = 5²)
+- Atribuição
+    - n += 4
+    - n -= 4
+    - n++ (pro-incremento)
+    - n - - (pro-decremento)
+    - ++ n (pre-incremento)
+    - - - n (pre-incremento)
+
 ### Aula08 - Operadores 2/2
+
+- Relacionais
+- Lógicos
+- Ternário
