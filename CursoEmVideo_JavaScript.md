@@ -209,5 +209,22 @@ O JavaScript é responsável pela interatividade dos elementos na página.
 ### Aula08 - Operadores 2/2
 
 - Relacionais
+    - >
+    - <
+    - >=
+    - <=
+    - ==
+    - !=
+    - ===
+    - !==
 - Lógicos
+    - !
+    - &&
+    - ||
 - Ternário
+    - ?
+    - :
+    
+    ex:
+    
+    → teste ? true : false
