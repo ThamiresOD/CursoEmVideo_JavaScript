@@ -132,6 +132,7 @@ O JavaScript é responsável pela interatividade dos elementos na página.
     - Infinity
     - NaN
 - String
+
 - Boolen
     
     
@@ -204,7 +205,7 @@ O JavaScript é responsável pela interatividade dos elementos na página.
     - n++ (pro-incremento)
     - n - - (pro-decremento)
     - ++ n (pre-incremento)
-    - - - n (pre-incremento)
+    - -- n (pre-incremento)
 
 ### Aula08 - Operadores 2/2
 
@@ -228,3 +229,82 @@ O JavaScript é responsável pela interatividade dos elementos na página.
     ex:
     
     → teste ? true : false
+    
+
+## Módulo C: Entendendo o DOM (Document Object Model)
+
+### Aula09 - Introdução ao DOM
+
+- Árvore DOM
+    - window
+        - document
+        - html
+            - head
+                - meta
+                - title
+            - body
+                - h1
+                - p
+                - div
+- Acessar elementos do DOM
+    - Marca = getElementByTagName( )
+    - ID = getElementsById( )
+    - Nome= getElementsByName( )
+    - Classe = getElementsByClassName( )
+    - Seletor = querySelector( ) / querySelectorAll( )
+
+### Aula10 - Eventos DOM
+
+- Event
+    - mouseenter
+    - mouseout
+    - mousemove
+    - mousedown
+    - mouseup
+    - click
+- Function
+    - Event Listener
+        
+        ```html
+        <script>
+                let area = document.getElementById('area')
+                area.addEventListener('click', clicar)
+                area.addEventListener('mouseenter', entrar)
+                area.addEventListener('mouseout', sair)
+        
+                function clicar() {
+                    area.innerText = 'Clicou!'
+                    area.style.background = 'Red'
+                }
+                function entrar() {
+                    area.innerText = 'Entrou!'
+                }
+                function sair() {
+                    area.innerText = 'Saiu!'
+                    area.style.background = 'Green'
+                }
+            </script>
+        ```
+        
+    - Acessando input
+        
+        ```html
+        <body>
+            <h1>Somando Valores</h1>
+            <input type="number" name="txtn1" id="txtn1"> +
+            <input type="number" name="txtn2" id="txtn2">
+            <input type="button" value="somar" onclick="somar()">
+            <div id="res">Resultado</div>
+            <script>
+                function somar() {
+                    let tn1 = document.querySelector('input#txtn1')
+                    let tn2 = document.getElementById('txtn2')
+                    let res = document.getElementById('res')
+                    let n1 = Number(tn1.value)
+                    let n2 = Number(tn2.value)
+                    let soma = n1 + n2
+                    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>!`
+                }
+            </script>
+        </body>
+        ```
