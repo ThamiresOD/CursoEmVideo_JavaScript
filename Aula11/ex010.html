@@ -20,7 +20,6 @@
             let txtv = document.getElementById('txtvel')
             let res = document.querySelector('div#res')
             let vel = Number(txtv.value)
-
             res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel} Km/h<strong/></p>`
             if (vel > 60) {
                 res.innerHTML += `<p>Você está <strong>MULTADO!</strong> por excesso de velocidade!</p>`
