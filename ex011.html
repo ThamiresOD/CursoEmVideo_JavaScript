@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula11 - ex011</title>
+</head>
+<body>
+    <h1>Sistema de reconhecimento da naturalidade</h1>
+    <h2>
+        Qual é o seu país de origem:
+        <input type="text" name="txtpais" id="txtpais">.
+    </h2>
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            let txtp = document.getElementById('txtpais')
+            let res = document.querySelector('div#res')
+            let pais = txtp.value
+
+            res.innerHTML = `<p>Seu pais de origem é <strong>${pais}<strong/></p>`
+            if (pais == 'Brasil') {
+                res.innerHTML += `<p>Você é <strong>BRASILEIRO!</strong>!</p>`
+            } else {
+                res.innerHTML += `<p>Você é <strong>ESTRANGEIRO!</strong>!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
