@@ -1,7 +1,7 @@
 let country = 'França'
 console.log(`Vivendo em ${country} `)
 
-// Condição simples
+// Condição composta
 if (country == 'Brasil') {
     console.log('Você é Brasileiro!')
 } else {
