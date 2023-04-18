@@ -1,4 +1,4 @@
-let country = 'França'
+let country = 'Brasil'
 console.log(`Vivendo em ${country} `)
 
 // Condição composta
