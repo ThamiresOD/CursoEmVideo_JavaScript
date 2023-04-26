@@ -1,0 +1,32 @@
+:root {
+    --colorBG: rgb(138, 138, 240);
+    --colorTxt: rgb(142, 137, 137);
+    --color1: rgb(247, 241, 232);
+}
+
+body {
+    background-color: rgb(138, 138, 240);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: var(--color1);
+    text-align: center;
+}
+
+section {
+    background-color: var(--color1);
+    color: var(--colorTxt);
+    border-radius: 12px;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 5px 5px 10px gray;
+}
+
+footer {
+    color: var(--color1);
+    text-align: center;
+    font-style: italic;
+}
