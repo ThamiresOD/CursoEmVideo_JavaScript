@@ -1,0 +1,41 @@
+:root {
+    --colorBG: #363636;
+    --colorTxt: rgb(142, 137, 137);
+    --color1: rgb(247, 241, 232);
+    --color2: #a65753;
+    --color3: #89a1ae;
+    --color4: #45575b;
+    --color5: #54689e;
+    --color6: #7d685d;
+    --color7: #5a4c45;
+    --color8: #ddbe85;
+
+}
+
+body {
+    background-color: var(--colorBG);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: var(--color1);
+    text-align: center;
+}
+
+section {
+    background-color: var(--color1);
+    color: var(--colorTxt);
+    border-radius: 12px;
+    padding: 2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 4px 4px 15px var(--color3);
+}
+
+footer {
+    color: var(--color1);
+    text-align: center;
+    
+    font-style: italic;
+}
